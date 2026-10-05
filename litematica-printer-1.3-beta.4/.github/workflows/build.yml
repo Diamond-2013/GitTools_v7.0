@@ -1,0 +1,80 @@
+name: build
+on:
+  push:
+    branches: ['**'] # stop build tag commits
+    paths-ignore: ['*.md']
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      pr_build:
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, 'SKIP') }}
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_USERNAME: ${{ secrets.GH_USERNAME }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: '0'
+
+      - name: Validate gradle wrapper
+        uses: gradle/actions/wrapper-validation@v6
+
+      - name: Setup jdk
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Cache Gradle dependencies
+        id: gradle-cache
+        uses: actions/cache@v5
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+            ./.gradle
+            ./libs
+          key: ${{ runner.os }}-gradle-common
+          restore-keys: |
+            ${{ runner.os }}-gradle-common
+
+      # only build.yml. Obtaining a commit hash makes it easier to find commits
+      - name: Get latest short hash
+        run: echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Make gradle wrapper executable
+        run: chmod +x ./gradlew
+
+      # If `step: gradle-cache` fails to cache, start downloading dependencies to reduce build failures
+      - name: Download dependencies
+        if: |
+          steps.gradle-cache.outputs.cache-hit != 'true' ||
+          contains(github.event.head_commit.message, 'DEPS')
+        run: ./gradlew dependencies --stacktrace
+
+      - name: Build fabricWrapper subproject
+        run: ./gradlew :fabricWrapper:build
+        env:
+          PR_BUILD: ${{ inputs.pr_build }}
+
+      - name: Capture versionpack artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: Artifacts
+          path: fabricWrapper/build/libs/*.jar
+          archive: false
+
+      # providing individual versions of artifacts。 only build.yml
+      - name: Capture single version artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: single-version-artifacts
+          path: fabricWrapper/build/tmp/submods/META-INF/jars/*.jar

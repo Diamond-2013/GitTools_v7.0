@@ -1,0 +1,767 @@
+[
+  {
+    "modid": "alternate-current",
+    "name": "Alternate Current",
+    "version": "1.9.0"
+  },
+  {
+    "modid": "anvianslib",
+    "name": "Anvian\u0027s Lib",
+    "version": "1.4.1"
+  },
+  {
+    "modid": "appleskin",
+    "name": "AppleSkin",
+    "version": "3.0.10+mc26.1.2"
+  },
+  {
+    "modid": "architectury",
+    "name": "Architectury",
+    "version": "20.0.9"
+  },
+  {
+    "modid": "asynclogger",
+    "name": "Async Logger",
+    "version": "2.2.2+26.1.2-fabric"
+  },
+  {
+    "modid": "betteradvancements",
+    "name": "Better Advancements",
+    "version": "0.5.0.63"
+  },
+  {
+    "modid": "betterclouds",
+    "name": "Better Clouds",
+    "version": "1.13.6+26.1.2-fabric"
+  },
+  {
+    "modid": "betterf3",
+    "name": "BetterF3",
+    "version": "18.0.2"
+  },
+  {
+    "modid": "blue_endless_jankson",
+    "name": "jankson",
+    "version": "1.2.3"
+  },
+  {
+    "modid": "c2me",
+    "name": "Concurrent Chunk Management Engine",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-base",
+    "name": "Concurrent Chunk Management Engine (Base)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-client-uncapvd",
+    "name": "Concurrent Chunk Management Engine (Client/Uncap View Distance)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-fixes-chunkio-threading-issues",
+    "name": "Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-fixes-general-threading-issues",
+    "name": "Concurrent Chunk Management Engine (Fixes/General/Threading Issues)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-fixes-worldgen-threading-issues",
+    "name": "Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-fixes-worldgen-vanilla-bugs",
+    "name": "Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-notickvd",
+    "name": "Concurrent Chunk Management Engine (No Tick View Distance)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-allocs",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Memory Allocations)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-chunkio",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Chunk IO)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-dfc",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Density Function Compiler)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-math",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Math)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-natives-math",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Natives Math)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-scheduling",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Scheduling)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-worldgen-general",
+    "name": "Concurrent Chunk Management Engine (Optimizations/General WorldGen)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-opts-worldgen-vanilla",
+    "name": "Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-rewrites-chunk-serializer",
+    "name": "Concurrent Chunk Management Engine (Rewrites/Chunk Serializer)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-rewrites-chunk-system",
+    "name": "Concurrent Chunk Management Engine (Rewrites/Chunk System)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-rewrites-chunkio",
+    "name": "Concurrent Chunk Management Engine (Rewrites/Chunk IO)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-server-utils",
+    "name": "Concurrent Chunk Management Engine (Server Utils)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "c2me-threading-lighting",
+    "name": "Concurrent Chunk Management Engine (Threading/Lighting)",
+    "version": "0.3.7+alpha.0.61+26.1"
+  },
+  {
+    "modid": "carpet",
+    "name": "Carpet Mod",
+    "version": "26.1+v260402"
+  },
+  {
+    "modid": "carpet-igny-addition",
+    "name": "Carpet IGNY Addition",
+    "version": "1.14.0"
+  },
+  {
+    "modid": "carpet-org-addition",
+    "name": "Carpet Org Addition",
+    "version": "1.45.1"
+  },
+  {
+    "modid": "carpet-tis-addition",
+    "name": "Carpet TIS Addition",
+    "version": "1.82.4"
+  },
+  {
+    "modid": "cca",
+    "name": "Crystal Carpet Addition",
+    "version": "1.14.0+mc26.1.2"
+  },
+  {
+    "modid": "chat_heads",
+    "name": "Chat Heads",
+    "version": "1.2.4"
+  },
+  {
+    "modid": "cicada",
+    "name": "CICADA",
+    "version": "0.15.2+26.1"
+  },
+  {
+    "modid": "cloth-basic-math",
+    "name": "cloth-basic-math",
+    "version": "0.6.1"
+  },
+  {
+    "modid": "cloth-config",
+    "name": "Cloth Config v26.1",
+    "version": "26.1.154"
+  },
+  {
+    "modid": "com_electronwill_night-config_core",
+    "name": "core",
+    "version": "3.6.5"
+  },
+  {
+    "modid": "com_electronwill_night-config_toml",
+    "name": "toml",
+    "version": "3.6.5"
+  },
+  {
+    "modid": "com_ibm_async_asyncutil",
+    "name": "asyncutil",
+    "version": "0.1.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_common_common-image",
+    "name": "common-image",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_common_common-io",
+    "name": "common-io",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_common_common-lang",
+    "name": "common-lang",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_imageio_imageio-core",
+    "name": "imageio-core",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_imageio_imageio-metadata",
+    "name": "imageio-metadata",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_twelvemonkeys_imageio_imageio-webp",
+    "name": "imageio-webp",
+    "version": "3.12.0"
+  },
+  {
+    "modid": "com_velocitypowered_velocity-native",
+    "name": "velocity-native",
+    "version": "3.4.0-SNAPSHOT"
+  },
+  {
+    "modid": "conditional-mixin",
+    "name": "conditional mixin",
+    "version": "0.6.4"
+  },
+  {
+    "modid": "configured",
+    "name": "Configured",
+    "version": "2.7.5"
+  },
+  {
+    "modid": "continuity",
+    "name": "Continuity",
+    "version": "3.0.1-beta.2+26.1"
+  },
+  {
+    "modid": "cosmetica",
+    "name": "Cosmetica",
+    "version": "2.0.1-26.1"
+  },
+  {
+    "modid": "cosmetica-core",
+    "name": "Cosmetica Core",
+    "version": "2.1.6+hotfix.2-26.1"
+  },
+  {
+    "modid": "crash_assistant",
+    "name": "Crash Assistant",
+    "version": "1.11.10"
+  },
+  {
+    "modid": "crashexploitfixer",
+    "name": "CrashExploitFixer",
+    "version": "2.0.0"
+  },
+  {
+    "modid": "cullleaves",
+    "name": "Cull Leaves",
+    "version": "4.1.2"
+  },
+  {
+    "modid": "customskinloader-bootstrap",
+    "name": "CustomSkinLoader Bootstrap",
+    "version": "15.0.1"
+  },
+  {
+    "modid": "de_miraculixx_core",
+    "name": "core",
+    "version": "2.10.3"
+  },
+  {
+    "modid": "de_miraculixx_veinminer-client-common",
+    "name": "veinminer-client-common",
+    "version": "2.10.3"
+  },
+  {
+    "modid": "de_miraculixx_veinminer-common",
+    "name": "veinminer-common",
+    "version": "2.10.3"
+  },
+  {
+    "modid": "dynamic_fps",
+    "name": "Dynamic FPS",
+    "version": "3.11.7"
+  },
+  {
+    "modid": "dynamic_fps_common",
+    "name": "Dynamic FPS Common",
+    "version": "3.11.7"
+  },
+  {
+    "modid": "entity_model_features",
+    "name": "Entity Model Features",
+    "version": "3.2.4"
+  },
+  {
+    "modid": "entity_texture_features",
+    "name": "Entity Texture Features",
+    "version": "7.1"
+  },
+  {
+    "modid": "entityculling",
+    "name": "EntityCulling",
+    "version": "1.11.2"
+  },
+  {
+    "modid": "exordium",
+    "name": "Exordium",
+    "version": "2.1.1"
+  },
+  {
+    "modid": "fabric-language-kotlin",
+    "name": "Fabric Language Kotlin",
+    "version": "1.13.13+kotlin.2.4.10"
+  },
+  {
+    "modid": "fabric-permissions-api-v0",
+    "name": "fabric-permissions-api",
+    "version": "0.7.0"
+  },
+  {
+    "modid": "fabricloader",
+    "name": "Fabric Loader",
+    "version": "0.19.3"
+  },
+  {
+    "modid": "ferritecore",
+    "name": "FerriteCore",
+    "version": "9.0.0"
+  },
+  {
+    "modid": "fzzy_config",
+    "name": "Fzzy Config",
+    "version": "0.7.6+26.1"
+  },
+  {
+    "modid": "gca",
+    "name": "gugle-carpet-addition",
+    "version": "2.12.6-mc26.1.2+build.94"
+  },
+  {
+    "modid": "gca_wrapper",
+    "name": "gugle-carpet-addition-Wrapper",
+    "version": "1.0.6"
+  },
+  {
+    "modid": "geckolib",
+    "name": "GeckoLib 5",
+    "version": "5.5.2"
+  },
+  {
+    "modid": "gs_mclo_api",
+    "name": "api",
+    "version": "5.0.2"
+  },
+  {
+    "modid": "immediatelyfast",
+    "name": "ImmediatelyFast",
+    "version": "1.15.2+26.1.2"
+  },
+  {
+    "modid": "io_github_douira_glsl-transformer",
+    "name": "glsl-transformer",
+    "version": "3.0.0-pre3"
+  },
+  {
+    "modid": "io_reactivex_rxjava3_rxjava",
+    "name": "rxjava",
+    "version": "3.1.12"
+  },
+  {
+    "modid": "iris",
+    "name": "Iris",
+    "version": "1.10.9+mc26.1.1"
+  },
+  {
+    "modid": "itemscroller",
+    "name": "Item Scroller",
+    "version": "0.31.5"
+  },
+  {
+    "modid": "ixeris",
+    "name": "Ixeris",
+    "version": "4.6.8+26.1.2-fabric"
+  },
+  {
+    "modid": "jade",
+    "name": "Jade",
+    "version": "26.1.8+fabric"
+  },
+  {
+    "modid": "jei",
+    "name": "Just Enough Items",
+    "version": "29.16.0.47"
+  },
+  {
+    "modid": "jep_jep",
+    "name": "jep",
+    "version": "2.24"
+  },
+  {
+    "modid": "krypton",
+    "name": "Krypton",
+    "version": "0.3.0"
+  },
+  {
+    "modid": "ksyxis",
+    "name": "Ksyxis",
+    "version": "1.4.5"
+  },
+  {
+    "modid": "kupe",
+    "name": "Kupe GUI",
+    "version": "0.26.8-26.1"
+  },
+  {
+    "modid": "litematica",
+    "name": "Litematica",
+    "version": "0.27.10"
+  },
+  {
+    "modid": "lithium",
+    "name": "Lithium",
+    "version": "0.24.7+mc26.1.2"
+  },
+  {
+    "modid": "malilib",
+    "name": "MaLiLib",
+    "version": "0.28.9"
+  },
+  {
+    "modid": "midnightlib",
+    "name": "MidnightLib",
+    "version": "1.9.2"
+  },
+  {
+    "modid": "minecraft",
+    "name": "Minecraft",
+    "version": "26.1.2"
+  },
+  {
+    "modid": "mixinextras",
+    "name": "MixinExtras",
+    "version": "0.5.4"
+  },
+  {
+    "modid": "mixinsquared",
+    "name": "MixinSquared",
+    "version": "0.3.7-beta.1"
+  },
+  {
+    "modid": "modernfix",
+    "name": "ModernFix",
+    "version": "5.27.17-build.2"
+  },
+  {
+    "modid": "modmenu",
+    "name": "Mod Menu",
+    "version": "18.0.0"
+  },
+  {
+    "modid": "moreculling",
+    "name": "More Culling",
+    "version": "1.7.2"
+  },
+  {
+    "modid": "net_lenni0451_reflect",
+    "name": "Reflect",
+    "version": "1.6.2"
+  },
+  {
+    "modid": "net_lostluma_battery",
+    "name": "battery",
+    "version": "2.1.0"
+  },
+  {
+    "modid": "net_objecthunter_exp4j",
+    "name": "exp4j",
+    "version": "0.4.8"
+  },
+  {
+    "modid": "net_peanuuutz_tomlkt_tomlkt-jvm",
+    "name": "tomlkt-jvm",
+    "version": "0.3.7"
+  },
+  {
+    "modid": "no-resource-pack-warnings",
+    "name": "No Resource Pack Warnings",
+    "version": "1.5.0"
+  },
+  {
+    "modid": "org_anarres_jcpp",
+    "name": "jcpp",
+    "version": "1.4.14"
+  },
+  {
+    "modid": "org_antlr_antlr4-runtime",
+    "name": "antlr4-runtime",
+    "version": "4.13.1"
+  },
+  {
+    "modid": "org_apache_commons_commons-math3",
+    "name": "commons-math3",
+    "version": "3.6.1"
+  },
+  {
+    "modid": "org_jctools_jctools-core",
+    "name": "jctools-core",
+    "version": "4.0.5"
+  },
+  {
+    "modid": "org_jetbrains_kotlin_kotlin-reflect",
+    "name": "kotlin-reflect",
+    "version": "2.4.10"
+  },
+  {
+    "modid": "org_jetbrains_kotlin_kotlin-stdlib",
+    "name": "kotlin-stdlib",
+    "version": "2.4.10"
+  },
+  {
+    "modid": "org_jetbrains_kotlin_kotlin-stdlib-jdk7",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "2.4.10"
+  },
+  {
+    "modid": "org_jetbrains_kotlin_kotlin-stdlib-jdk8",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "2.4.10"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_atomicfu-jvm",
+    "name": "atomicfu-jvm",
+    "version": "0.33.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm",
+    "name": "kotlinx-coroutines-core-jvm",
+    "version": "1.11.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-coroutines-jdk8",
+    "name": "kotlinx-coroutines-jdk8",
+    "version": "1.11.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-datetime-jvm",
+    "name": "kotlinx-datetime-jvm",
+    "version": "0.8.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm",
+    "name": "kotlinx-io-bytestring-jvm",
+    "version": "0.9.1"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-io-core-jvm",
+    "name": "kotlinx-io-core-jvm",
+    "version": "0.9.1"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm",
+    "name": "kotlinx-serialization-cbor-jvm",
+    "version": "1.11.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-serialization-core-jvm",
+    "name": "kotlinx-serialization-core-jvm",
+    "version": "1.11.0"
+  },
+  {
+    "modid": "org_jetbrains_kotlinx_kotlinx-serialization-json-jvm",
+    "name": "kotlinx-serialization-json-jvm",
+    "version": "1.11.0"
+  },
+  {
+    "modid": "org_quiltmc_parsers_gson",
+    "name": "gson",
+    "version": "0.2.1"
+  },
+  {
+    "modid": "org_quiltmc_parsers_json",
+    "name": "json",
+    "version": "0.2.1"
+  },
+  {
+    "modid": "org_reactivestreams_reactive-streams",
+    "name": "reactive-streams",
+    "version": "1.0.4"
+  },
+  {
+    "modid": "org_yaml_snakeyaml",
+    "name": "snakeyaml",
+    "version": "2.2"
+  },
+  {
+    "modid": "packetfixer",
+    "name": "Packet Fixer",
+    "version": "3.3.5"
+  },
+  {
+    "modid": "placeholder-api",
+    "name": "Placeholder API",
+    "version": "3.0.0+26.1"
+  },
+  {
+    "modid": "resourcepackchecker",
+    "name": "Server Resource Pack Checker",
+    "version": "1.2.2+26.1.2"
+  },
+  {
+    "modid": "rhenium",
+    "name": "rhenium",
+    "version": "1.0-SNAPSHOT"
+  },
+  {
+    "modid": "ryansrenderingkit",
+    "name": "Ryans Rendering Kit",
+    "version": "1.2.0"
+  },
+  {
+    "modid": "sclp",
+    "name": "Sodium Chinese Localized Package",
+    "version": "5.4-snapshot+mc26.1-local"
+  },
+  {
+    "modid": "shulkerboxtooltip",
+    "name": "Shulker Box Tooltip",
+    "version": "5.3.0+26.1.1"
+  },
+  {
+    "modid": "silk-all",
+    "name": "Silk (All modules)",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-commands",
+    "name": "Silk Commands",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-core",
+    "name": "Silk Core",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-game",
+    "name": "Silk Game",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-igui",
+    "name": "Silk Inventory GUI",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-nbt",
+    "name": "Silk NBT",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-network",
+    "name": "Silk Network",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "silk-persistence",
+    "name": "Silk Persistence",
+    "version": "1.11.8"
+  },
+  {
+    "modid": "sodium",
+    "name": "Sodium",
+    "version": "0.8.11+mc26.1.2"
+  },
+  {
+    "modid": "sodium-extra",
+    "name": "Sodium Extra",
+    "version": "0.8.7+mc26.1.1"
+  },
+  {
+    "modid": "sodiumextrainformation",
+    "name": "Sodium Extra Information",
+    "version": "2.9.0"
+  },
+  {
+    "modid": "superfastmath",
+    "name": "SuperFastMath",
+    "version": "0.0.4-26.1.2"
+  },
+  {
+    "modid": "transition",
+    "name": "TRansition",
+    "version": "1.0.25"
+  },
+  {
+    "modid": "trender",
+    "name": "TRender",
+    "version": "1.0.17"
+  },
+  {
+    "modid": "tweakermore",
+    "name": "TweakerMore",
+    "version": "3.31.0"
+  },
+  {
+    "modid": "tweakeroo",
+    "name": "Tweakeroo",
+    "version": "0.28.6"
+  },
+  {
+    "modid": "veinminer",
+    "name": "Veinminer",
+    "version": "2.10.3"
+  },
+  {
+    "modid": "veinminer_client",
+    "name": "Veinminer Client",
+    "version": "2.10.3"
+  },
+  {
+    "modid": "xaerolib",
+    "name": "XaeroLib",
+    "version": "1.7.1"
+  },
+  {
+    "modid": "xaerominimap",
+    "name": "Xaero\u0027s Minimap",
+    "version": "26.4.2"
+  },
+  {
+    "modid": "xaeroworldmap",
+    "name": "Xaero\u0027s World Map",
+    "version": "1.44.0"
+  },
+  {
+    "modid": "yet_another_config_lib_v3",
+    "name": "YetAnotherConfigLib",
+    "version": "3.9.5+26.1-fabric"
+  }
+]
