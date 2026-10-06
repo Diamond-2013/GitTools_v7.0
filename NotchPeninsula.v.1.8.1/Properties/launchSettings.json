@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "NotchPeninsula": {
-      "commandName": "Project",
-      "commandLineArgs": "-debug"
-    }
-  }
-}
